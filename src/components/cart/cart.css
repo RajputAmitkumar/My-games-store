@@ -1,0 +1,35 @@
+.cart-image {
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+}
+
+.cart-cont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 15px 10px;
+    /* justify-content: space-between; */
+}
+.check {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.cart-price  {
+    align-self: center;
+    justify-self: center;
+}
+
+.fa-inr-cart {
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin: 1px;
+}
+
+.remove-btn {
+    width: 20vw;
+    height: 5vh;
+    justify-self: center;
+    align-self: center;
+}
