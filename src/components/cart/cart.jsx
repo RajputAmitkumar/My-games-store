@@ -6,7 +6,6 @@ import './cart.css'
 const Cart = () => {
     const { cartData } = useContext(CartContext);
     const total = useRef(0);
-    // const secTotal = useRef(0)
     const [RazorPay] = useRazorpay();
 
     const razorpayDisplay = useCallback(async (total) => {
